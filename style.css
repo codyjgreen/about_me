@@ -5,12 +5,14 @@
 
 }
 body {
-  background-image: url("/users/codygreen/documents/photos/menbug.jpg");
+  background-image: url("/users/codygreen/codefellows/201/about_me/pictures/menbug.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: skyblue;
+  background-color: LightCyan;
+  background-attachment: scroll;
+  background-size: 1000px 1000px;
 
 
 }
