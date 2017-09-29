@@ -9,7 +9,7 @@ var user = prompt(' what is your name? ');
 alert(' hi ' + user + ' ! Yay! Ok here we go let\s do this! ');
 
 var answer = prompt(' is Cody\s favorite movie The Princess Bride? Type yes or no. ').toLowerCase();
-console.log(answer);
+console.log('princess bride ' + answer);
 
 if(answer === 'yes' || answer === 'y' ) {
   userPoints++;
@@ -22,7 +22,7 @@ alert(' you have ' + userPoints + ' points. ');
 console.log(userPoints + ' Points');
 
 var answer2 = prompt(' Is cody\'s favorite show Doctor Who? Type yes or no. ').toLowerCase();
-console.log(answer2);
+console.log('the doctor ' + answer2);
 
 if(answer2 === 'yes' || answer2 === 'y' ) {
   userPoints++;
@@ -38,7 +38,7 @@ console.log(userPoints + ' Points');
 // alert('Look at you go!');
 
 var answer3 = prompt(' Has cody been out of the country? Type yes or no. ').toLowerCase();
-console.log(answer3);
+console.log('country ' + answer3);
 
 if(answer3 === 'no' || answer3 === 'n'){
   userPoints++;
@@ -51,7 +51,7 @@ alert(' you have ' + userPoints + ' points. ');
 console.log(userPoints + ' Points');
 
 var answer4 = prompt( ' Does Cody love to sing karaoke? Type yes or no. ').toLowerCase();
-console.log(answer4);
+console.log(' karaoke ' + answer4);
 
 if(answer4 === 'yes' || answer4 === 'y'){
   userPoints++;
