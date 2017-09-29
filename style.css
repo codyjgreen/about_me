@@ -1,6 +1,11 @@
 * {
   font-family: sans-serif;
-  background-color: skyblue;
+  background-color: white;
 }
 
 h1  {color:black}
+
+div {
+  padding: 10px
+  
+}
