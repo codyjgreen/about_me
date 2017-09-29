@@ -37,7 +37,7 @@ console.log(userPoints + ' Points');
 if(userPoints > '2');
 alert('Look at you go!');
 
-var answer3 = prompt(' has cody been out of the country? Type yes or no. ').toLowerCase();
+var answer3 = prompt(' Has cody been out of the country? Type yes or no. ').toLowerCase();
 console.log(answer3);
 
 if(answer3 === 'no' || answer3 === 'N'){
@@ -47,5 +47,17 @@ if(answer3 === 'no' || answer3 === 'N'){
   alert(' sorry but i\'ve never left the country ' + user + ' though im saving up to go to iceland! ');
 }
 
+alert(' you have ' + userPoints + ' points. ');
+console.log(userPoints + ' Points');
+
+var answer4 = prompt( ' Does Cody love to sing karaoke? Type yes or no. ').toLowerCase();
+console.log(answer4);
+
+if(answer4 === 'yes' || answer4 === 'Y'){
+  userPoints++;
+  alert(' Yes!  Wake up ' + user + ' I think i got something to say to you! It\s late september and i really should be back at school!');
+}else{
+  alert( user + 'Is it too late now to say sorry?      Because you got it wrong.  Sorry!   ');
+}
 alert(' you have ' + userPoints + ' points. ');
 console.log(userPoints + ' Points');
