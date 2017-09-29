@@ -1,20 +1,30 @@
-/** {
-  font-family: sans-serif;
+* {
+  font-family: sans-serif, ti;
+  font-size: 16px;
+
+
+}
+body {
+  background-image: url("/users/codygreen/documents/photos/menbug.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: skyblue;
 
-}*/
-body {
-  background-image: url("menbug.jpg");
-   background-color: skyblue;
-    height: 100%;
-    background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+
 }
-/*
-h1  {color:black}
+
+h1  {color: mediumseagreen;
+}
 
 div {
   padding: 10px
 
-}*/
+}
+
+p {
+  color: black;
+  line-height: 2;
+
+}
