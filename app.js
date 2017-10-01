@@ -5,7 +5,7 @@ var userPoints = 0;
 console.log('hello there');
 alert('welcome to my guessing game!');
 
-var user = prompt(' what is your name? ');
+var user = prompt('New phone who dis? \(what is your name?\) ');
 alert(' hi ' + user + ' ! Yay! Ok here we go let\'s do this! ');
 
 var answer = prompt(' is Cody\s favorite movie The Princess Bride? Type yes or no. ').toLowerCase();

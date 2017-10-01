@@ -1,31 +1,27 @@
 * {
   font-family: sans-serif;
-  background-image: url("/users/codygreen/codefellows/201/about_me/pictures/menbug.jpg");
+
 
 
 
 }
 body {
-  /*background-image: url("/users/codygreen/codefellows/201/about_me/pictures/menbug.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: LightCyan;
-  background-attachment: scroll;
-  background-size: contain;
-  overflow: hidden;*/
+  background-image: url("/users/codygreen/codefellows/201/about_me/pictures/menbug.jpg");
+
 }
 /*changes the size and position of the name but it still cuts off the top of the head but why?*/
 
-.name{
+/*.name{
   width: 200px;
   position: absolute;
   top: 8px;
   left: 16px;
-  background-color: #D2D2D2;
-  background: rgba(0, 0, 0, 0);
+  background: none;*/
 
 
+}
+.work {
+  background: none;
 }
 .bio {
   float: left;
@@ -33,9 +29,7 @@ body {
   position: absolute;
   top: 54px;
   left: 16px;
-  /*background-color: #D2D2D2;*/
-  background: rgba(0, 0, 0, 0);
-  /*border: dotted;*/
+  background: none;
 }
 /*how do i get the color difference behind the words on the page to be the same color?*/
 
@@ -45,9 +39,8 @@ body {
   position: absolute;
   top: 360px;
   left: 16px;
-  /*background-color: #CCD0D1;*/
   padding: 8px;
-  background: rgba(0, 0, 0, 0);
+  background: none;
   width: 415px;
 }
 
@@ -55,8 +48,7 @@ body {
   position:absolute;
   bottom: 162px;
   left: 16px;
-  /*background-color: #C9CDCC;*/
-  background: rgba(0, 0, 0, 0);
+  background: none;
 
 
 }
@@ -67,8 +59,7 @@ body {
   top: 54px;
   right: 16px;
   font-size: 16px;
-  /*background-color: #D1D3D2;*/
-  background: rgba(0, 0, 0, 0);
+  background: none;
   width: 550px;
   line-spacing: 5px;
 }
@@ -82,10 +73,12 @@ p {
   color: black;
   line-height: 2;
   font-size: 16px;
+  background: none;
 
 }
 h5 {
   font-size: 16px;
+  background: none;
 }
 
 h6 {
@@ -94,7 +87,7 @@ h6 {
   bottom: 290px;
   right: 200px;
   width: 200px;
-  background-color: #CACECF;
+  background: none;
 }
 
 .arnold {
@@ -103,7 +96,7 @@ h6 {
   bottom: 85px;
   right: 199px;
   width: 200px;
-  background-color: #CACECF;
+  background: none;
   display: inline;
   clear: both;
 }
