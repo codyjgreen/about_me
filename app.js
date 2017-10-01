@@ -7,7 +7,7 @@ alert('welcome to my guessing game!');
 
 var user = prompt(' what is your name? ');
 alert(' hi ' + user + ' ! Yay! Ok here we go let\'s do this! ');
-
+//
 // var answer = prompt(' is Cody\s favorite movie The Princess Bride? Type yes or no. ').toLowerCase();
 // console.log('princess bride ' + answer);
 //
@@ -99,17 +99,32 @@ alert(' hi ' + user + ' ! Yay! Ok here we go let\'s do this! ');
 // console.log(userPoints + ' Points ');
 
 var correctAnswers = ['homebrewing','cooking','fantasy football','video games','sports'];
-var guesses = 6;
-
+var guesses = 5;
+var flag = false;
 var answer7 = prompt('What are cody\'s hobbies?');
-for (var i = 0; i < correctAnswers.length;) {
 
-if (result) {
+while (!flag && guesses > 0) {
 
-} else {
-  (answer7 === correctAnswers[i]);
-  result = true;
+  for (var i = 0; i < correctAnswers.length; i++) {
+    if (answer7 === correctAnswers[i]) {
+      flag = true;
+    }
+  }
+  if(flag === true) {
+    userPoints++;
+    alert(' correct ' + user + ' you have ' + userPoints + ' Points! ');
+    console.log(answer7);
+  } else {
+    answer7 = prompt('give it another try');
+    guesses--;
+    console.log(answer7);
+
+  }
 }
+alert('all the thing i like to do are ' + correctAnswers);
+alert( user + ' you have ' + userPoints + ' Points! ');
+console.log(userPoints + ' Points ');
+
 // As a developer, I want to use thoughtful and descriptive console.log() throughout my code to help test my work and assist with debugging.
 // As a developer, I want to convert some of my appropriate biographical elements into unordered lists, such as my education summary and/or my work experience.
 // As a developer, I want to consider the user experience (UX) of my About Me and guessing game, trying to view it through the eyes of a user. Wait... maybe I should just write a user story for that...
