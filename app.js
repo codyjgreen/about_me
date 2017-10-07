@@ -90,6 +90,7 @@ console.log(userPoints + ' Points');
 }
 answerFive();
 
+function answerSix() {
 var turns = 5;
 
 while (turns > 0) {
@@ -111,8 +112,13 @@ while (turns > 0) {
   }
 }
 
+
+
 alert( user + ' you have ' + userPoints + ' Points! ');
 console.log(userPoints + ' Points ');
+}
+answerSix();
+
 
 var correctAnswers = ['homebrewing','cooking','fantasy football','video games','sports'];
 var guesses = 5;
