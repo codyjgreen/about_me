@@ -60,6 +60,7 @@ console.log(userPoints + ' Points');
 }
 answerThree();
 
+function answerFour() {
 var answer4 = prompt( ' Does Cody love to sing karaoke? Type yes or no. ').toLowerCase();
 console.log(' karaoke ' + answer4);
 
@@ -71,6 +72,8 @@ if(answer4 === 'yes' || answer4 === 'y'){
 }
 alert(' you have ' + userPoints + ' points. ');
 console.log(userPoints + ' Points');
+}
+answerFour();
 
 var answer5 = prompt( ' Does Cody know spanish? Type yes or no. ').toLowerCase();
 console.log('speaks spanish? ' + answer5);
