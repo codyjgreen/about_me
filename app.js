@@ -119,7 +119,7 @@ console.log(userPoints + ' Points ');
 }
 answerSix();
 
-
+function answerSeven() {
 var correctAnswers = ['homebrewing','cooking','fantasy football','video games','sports'];
 var guesses = 5;
 var flag = false;
@@ -146,3 +146,5 @@ while (!flag && guesses > 0) {
 alert('all the thing i like to do are ' + correctAnswers);
 alert( user + ' you have ' + userPoints + ' Points! ');
 console.log(userPoints + ' Points ');
+}
+answerSeven();
