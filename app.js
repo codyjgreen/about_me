@@ -24,7 +24,7 @@ console.log(userPoints + ' Points');
 }
 answerOne();
 
-
+function answerTwo() {
 var answer2 = prompt(' Is cody\'s favorite show Doctor Who? Type yes or no. ').toLowerCase();
 console.log('the doctor ' + answer2);
 
@@ -37,6 +37,9 @@ if(answer2 === 'yes' || answer2 === 'y' ) {
 
 alert(' you have ' + userPoints + ' points. ');
 console.log(userPoints + ' Points');
+}
+answerTwo();
+
 
 // if(userPoints > '2');
 // alert('Look at you go!');
