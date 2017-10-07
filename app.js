@@ -44,6 +44,7 @@ answerTwo();
 // if(userPoints > '2');
 // alert('Look at you go!');
 
+function answerThree() {
 var answer3 = prompt(' Has cody been out of the country? Type yes or no. ').toLowerCase();
 console.log('country ' + answer3);
 
@@ -56,6 +57,8 @@ if(answer3 === 'no' || answer3 === 'n'){
 
 alert(' you have ' + userPoints + ' points. ');
 console.log(userPoints + ' Points');
+}
+answerThree();
 
 var answer4 = prompt( ' Does Cody love to sing karaoke? Type yes or no. ').toLowerCase();
 console.log(' karaoke ' + answer4);
