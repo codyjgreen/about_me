@@ -75,6 +75,7 @@ console.log(userPoints + ' Points');
 }
 answerFour();
 
+function answerFive() {
 var answer5 = prompt( ' Does Cody know spanish? Type yes or no. ').toLowerCase();
 console.log('speaks spanish? ' + answer5);
 
@@ -86,6 +87,8 @@ if(answer5 === 'no' || answer5 === 'n'){
 }
 alert(' you have ' + userPoints + ' points. ');
 console.log(userPoints + ' Points');
+}
+answerFive();
 
 var turns = 5;
 
