@@ -8,6 +8,7 @@ alert('welcome to my guessing game!');
 var user = prompt('New phone who dis? \(what is your name?\) ');
 alert(' hi ' + user + ' ! Yay! Ok here we go let\'s do this! ');
 
+function answerOne () {
 var answer = prompt(' is Cody\s favorite movie The Princess Bride? Type yes or no. ').toLowerCase();
 console.log('princess bride ' + answer);
 
@@ -20,6 +21,9 @@ if(answer === 'yes' || answer === 'y' ) {
 
 alert(' you have ' + userPoints + ' points. ');
 console.log(userPoints + ' Points');
+}
+answerOne();
+
 
 var answer2 = prompt(' Is cody\'s favorite show Doctor Who? Type yes or no. ').toLowerCase();
 console.log('the doctor ' + answer2);
